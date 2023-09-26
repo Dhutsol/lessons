@@ -1,0 +1,80 @@
+@import url("reset.css");
+
+p {
+  color: black;
+}
+
+.liclass a {
+  color: blue;
+}
+
+.paragraph {
+  color: aquamarine;
+}
+
+.title-about-city a {
+  color: rgb(43, 255, 0);
+}
+
+.paragraph-tittle {
+  color: rgb(36, 118, 190);
+}
+
+.main-tittle,
+.title-about-city,
+.shitt {
+  color: saddlebrown;
+}
+
+.paragraph-one-div p {
+  color: salmon;
+}
+
+.blue-text {
+  color: blue;
+}
+
+#paragraph-one {
+  color: blueviolet;
+}
+
+#paragraph-two {
+  color: brown;
+}
+
+.text~p {
+  color: rgb(255, 0, 255);
+}
+
+span.text,
+.mywork {
+  color: green;
+}
+
+.text+p {
+  color: green;
+}
+
+.text-introduction {
+  color: bisque;
+}
+
+h3 {
+  color: rgb(156, 23, 127);
+}
+
+.blue.maybeblue {
+  color: green;
+}
+
+li {
+  color: blueviolet;
+}
+
+.chilldren.naming {
+  color: yellowgreen;
+}
+
+.title {
+  color: rgb(255, 0, 0);
+}
