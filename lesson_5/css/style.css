@@ -1,0 +1,134 @@
+@import url("reset.css");
+
+
+
+/* підключеня штрифтів */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+@font-face {
+   font-family: "sunday-srapes";
+   src: url("../fonts/sunday-srapes.woff2"),
+      url("../fonts/sunday-srapes.woff");
+   font-weight: 400;
+   font-display: swap;
+
+}
+
+/* handmade font */
+
+/* @font-face {
+   font-family: "fontname";
+   src: url("../fonts/") format("namefail");
+   font-weight: 500;
+   font-style: normal;
+   font-display: ;
+ 
+} */
+
+
+
+
+
+
+
+
+body {
+   font-family: "sunday-srapes";
+   /* font-family: "Inter" sans-serif; */
+}
+
+.text {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+.title {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   color: #37393F;
+   font-size: 30px;
+   line-height: 1.27
+}
+
+.title-sub {
+   font-family: "Poppins", sans-serif;
+   color: #6B77E5;
+   font-size: 20px;
+   line-height: 1.27;
+   font-weight: 600;
+}
+
+.paragrh {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+.title-two {
+   color: #37393F;
+   font-family: 'Poppins';
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
+}
+
+.another {
+   color: #7D7D7D;
+   font-family: 'Inter';
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1.46;
+}
+
+
+
+/* перевіримо шо я там можу з шрифтами робити */
+.text-two {
+   color: rgb(199, 16, 16);
+   font-family: "inter", serif;
+   font-size: medium;
+   font-weight: 400;
+   line-height: 1.22;
+}
+
+.title-three {
+   font-family: "inter", serif;
+   color: black;
+   font-size: 36px;
+   font-weight: 700;
+   font-style: oblique;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 5px 5px 4px #001aff, -10px -5px 4px rgb(81, 255, 0);
+
+
+}
+
+.lower {
+   text-transform: lowercase;
+   color: #001aff;
+   font-size: 19px;
+   line-height: 1.99;
+   font-style: italic;
+   text-align: right;
+
+
+}
+
+.some-text {
+   font-family: "Poppin", sans-serif;
+   font-size: 22px;
+   text-decoration: line-through;
+   color: gray;
+   text-indent: 55px;
+   letter-spacing: normal;
+   word-spacing: 55px;
+
+
+}
