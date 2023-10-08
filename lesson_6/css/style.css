@@ -1,0 +1,109 @@
+@import url("reset.css");
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+
+@font-face {
+   font-family: "Inter-italic-Regular";
+   src: url("../fonts/Inter-italic-Regular.woff2") format("woff2"),
+      url("../fonts/Inter-italic-Regular.woff") format("woff");
+   font-weight: normal;
+   font-display: swap;
+   font-style: normal
+}
+
+body {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   line-height: 1.46;
+   max-width: 692px;
+   margin: 0 auto;
+}
+
+.guys-img {
+   margin-bottom: 24px;
+   max-width: 100%;
+
+}
+
+.consulting-block {
+   text-align: left;
+}
+
+.title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 127%;
+   margin-bottom: 3px;
+
+}
+
+.content-one {
+   margin-bottom: 42px;
+}
+
+.sub-title {
+   color: #6B77E5;
+   font-family: "Poppins";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 127%;
+}
+
+.benefits {
+   color: brown;
+   margin: 50px auto;
+
+}
+
+.mac-img {
+   max-width: 331px;
+   margin-right: 15px;
+
+}
+
+.benefits-title {
+   color: #37393F;
+   font-family: "Poppins";
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 127%;
+}
+
+
+.benefits-sub-title {
+   color: #40DDB6;
+   font-family: "Poppins";
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 127%;
+}
+
+
+
+.content {
+   /* display: inline-block; */
+}
+
+.ul {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+}
+
+.dis {
+   display: inline-block;
+}
