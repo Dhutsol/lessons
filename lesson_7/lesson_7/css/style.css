@@ -1,0 +1,97 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+
+@import url("reset.css");
+
+
+
+
+
+.licencing {
+   max-width: 1218px;
+   margin: 0 auto;
+   margin-top: 150.5px;
+}
+
+.block1 {
+   text-align: center;
+}
+
+.border-test {
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   display: inline-block;
+}
+
+.test {
+   display: inline-block;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #37393F;
+   margin-bottom: 16px;
+
+}
+
+.block1 h2 {
+   color: #37393F;
+   font-family: "Poppins",sans-serif;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.content {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+
+.content-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.content-sub-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+
+
+}
+
+.span-color {
+   color: #40DDB6;
+}
+
+.content-two {}
+
+.content-two-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.pexels-content {
+   color: #40DDB6;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+
+.fonts {
+   color: #40DDB6;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
