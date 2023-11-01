@@ -9,47 +9,142 @@
 @import url("fonts.css");
 
 
-.header-div {
-   width: 150px;
-   height: 150px;
-   background-color: rgb(255, 0, 200);
-   margin: 0 auto;
-   box-shadow: 10px 10px 5px red, inset 10px 10px 5px rgba(255, 0, 0, 0.425);
-   border: 3px solid green;
-   margin-top: 165px;
-   border-radius: 35px;
-   text-align: center;
-   line-height: 3.5;
-   margin-bottom: 20px;
+.header {
+   background: linear-gradient(90deg, rgba(254, 255, 0, 1) 0%, rgba(199, 174, 48, 1) 64%, rgba(2, 0, 36, 1) 100%);
+   border: 10px;
+   border-color: aquamarine;
+   margin-bottom: 25px;
+}
 
+.logo {
+   margin-left: 60px;
+   display: inline-block;
+   max-width: 150px;
+   border-radius: 50%;
+   box-shadow: 10px 10px 10px;
 
 }
 
-.text {
-   font-family: "Poppins", serif;
+.WELCOME {
+   display: inline-block;
+   color: rgb(25, 26, 41);
+   background-position: 35px 10px;
+   font-size: 59px;
+   font-family: "CoreSansC", sans-serif;
+   font-weight: 900;
    text-align: center;
-   text-transform: uppercase;
-   text-decoration: underline;
+   padding-left: 35px;
+   padding-top: 35px;
+   font-style: oblique;
+   text-shadow: 10px 10px 10px;
 }
 
-.title {
-   text-align: center;
-   font-family: "Inter", sans-serif;
+
+.block1 {
+   font-family: "CoreSansC", sans-serif;
+   padding-left: 10px;
+   margin-bottom: 30px;
+}
+
+.nameofset {
+   font-size: 59px;
    font-weight: 700;
-   font-size: 39px;
-   line-height: 1.4;
-   text-shadow: 10px 10px 10px rgb(0, 194, 253), 5px 5px 5px greenyellow;
-   background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(48, 199, 192, 1) 47%, rgba(0, 212, 255, 1) 100%);
-   box-shadow: inset 5px 5px 15px black;
+   text-shadow: 10px 10px 10px;
+   margin-bottom: 10px;
+
 }
 
-.border {
-   margin: 50px;
-   padding: 50px;
-   border: 5px solid violet;
-   border-radius: 50px 10px 50px 10px;
-   outline: 3px solid gray;
-   opacity: 0.6;
-   background-image: url("../img/jewellery.png");
-   background-size: contain;
+.imgset1 {
+   max-width: 350px;
+   border-radius: 50px;
+}
+
+.listofset1 {
+   padding-left: 20px;
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.cena {
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 500;
+   /* text-decoration: line-through; */
+   max-width: 150px;
+}
+
+body {
+   background-color: rgba(254, 255, 0, 1);
+}
+
+li {
+   list-style: inside;
+}
+
+
+
+
+
+
+
+
+
+.block2 {
+   font-family: "CoreSansC", sans-serif;
+   padding-left: 10px;
+   margin-bottom: 30px;
+
+}
+
+.nameofset2 {
+   font-size: 59px;
+   font-weight: 700;
+   text-shadow: 10px 10px 10px;
+   margin-bottom: 10px;
+
+}
+
+.imgset2 {
+   max-width: 350px;
+   border-radius: 50px;
+}
+
+.listofset2 {
+   padding-left: 20px;
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+
+.cena2 {
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 500;
+   /* text-decoration: line-through; */
+   max-width: 150px;
+}
+
+.oldcena {
+   display: inline-block;
+   text-decoration: line-through;
+   font-size: 14px;
+}
+
+
+
+
+
+
+.contact {
+   font-family: "CoreSansC", sans-serif;
+   font-size: 15px;
+   text-align: end;
+   padding: 10px;
+}
+
+.copy {
+   font-size: 20px;
+   margin: 10px;
 }
