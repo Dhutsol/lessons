@@ -1,0 +1,572 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:300,regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import url("fonts.css");
+
+.practice {
+   /* background-image: url("/img/sakuura.jpg");
+   background-position: 10px 10px;
+   background-repeat: repeat-x;
+   background-attachment: fixed;
+   font-size: 25px;
+   background-size: cover; */
+   background: url("../img/hana.jpg")50px 100px / 100px no-repeat,
+      linear-gradient(55.95deg, rgba(12, 211, 12, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%),
+      url("../img/experience.svg") 50% / 200px no-repeat fixed;
+   /* background-attachment: fixed; */
+   margin-bottom: 50px;
+   width: 2000px;
+   min-height: 500px;
+
+}
+
+
+.span {
+   padding: 10px;
+   border-radius: 10px 10px 10px 10px;
+   outline: 1px solid blueviolet;
+}
+
+.img {
+   max-width: 500px;
+   margin-bottom: 100px;
+}
+
+
+
+
+
+.arrow-right {
+   width: 0;
+   height: 0;
+   border-top: 100px solid transparent;
+   border-left: 100px solid #000;
+   border-bottom: 100px solid transparent;
+}
+
+.arrow-left {
+   width: 0;
+   height: 0;
+   border-top: 100px solid transparent;
+   border-right: 100px solid #000;
+   border-bottom: 100px solid transparent;
+}
+
+.arrow-top {
+   width: 0;
+   height: 0;
+   border-right: 100px solid transparent;
+   border-left: 100px solid transparent;
+   border-bottom: 100px solid black;
+}
+
+.arrow-bot {
+   width: 0;
+   height: 0;
+   border-right: 100px solid transparent;
+   border-left: 100px solid transparent;
+   border-top: 100px solid black;
+}
+
+.bordertest1 {
+   margin-top: 100px;
+   width: 500px;
+   height: 500px;
+   /* border: 10px solid green; */
+   margin-left: 500px;
+   border-radius: 20px 35px 20px 35px;
+   background-color: black;
+   box-shadow: 20px 20px 20px green;
+   color: blue;
+   text-align: center;
+   font-size: 39px;
+   text-align: inherit;
+
+}
+
+.bordertest1 {
+   margin-bottom: 100px;
+   border-top: 15px double gold;
+   border-right: 15px dotted red;
+   border-left: 15px dashed green;
+   border-bottom: 15px solid violet;
+   outline: 10px solid black;
+}
+
+.bordertest1:hover {
+   margin-bottom: 100px;
+   border-bottom: 15px double gold;
+   border-left: 15px dotted red;
+   border-right: 15px dashed green;
+   border-top: 15px solid violet;
+   visibility: hidden;
+}
+
+
+.opacity {
+   width: 150px;
+   height: 50px;
+   border: 5px solid darkblue;
+   margin-left: 500px;
+   text-align: center;
+   opacity: 0.5;
+}
+
+.logo {
+   max-width: 100%;
+   border-radius: 250px;
+   padding: 25px;
+}
+
+.yo {
+   font-family: "Inter", sans-serif;
+   color: rgb(35, 36, 34);
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 7px 7px 7px gray;
+   line-height: 1.45;
+}
+
+/*                                HOME WORK                       */
+
+.business-plan {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   max-width: 1023px;
+   margin: 0 auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+
+
+}
+
+.square {
+   background-image: url("../img/box.png");
+   background-repeat: no-repeat;
+   padding-left: 19px;
+   color: #37393F;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 16px;
+   background-position: 0px 2px;
+}
+
+
+.title-business {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin-bottom: 20px;
+
+}
+
+.business-content p {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+   margin-bottom: 15px;
+
+}
+
+.business-list-content {
+   margin-bottom: 43px;
+}
+
+.li-style {
+   background-image: url("../img/li.svg");
+   background-repeat: no-repeat;
+   min-height: 27px;
+   padding-left: 35px;
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.65;
+   margin-bottom: 23px;
+
+}
+
+.business-content2 {
+   margin-bottom: 20px;
+
+}
+
+.experience {
+   display: inline-block;
+   padding: 32px 31px 32px 32px;
+   background-image: url("../img/experience.svg");
+   background-repeat: no-repeat;
+   padding-left: 90px;
+   background-position: 35px 35px;
+   border: 1px solid #E3E3E3;
+
+}
+
+
+
+.experience-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 6px;
+
+
+}
+
+.text-experience {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.35;
+   max-width: 173px;
+}
+
+.awards {
+   display: inline-block;
+   margin-left: 21px;
+   width: 295px;
+   background-image: url("../img/awards.svg");
+   background-repeat: no-repeat;
+   padding: 31px 37px 32px 37px;
+   background-position: 35px 35px;
+   vertical-align: top;
+   border: 1px solid #E3E3E3;
+   padding-left: 90px;
+   margin-bottom: 37px;
+
+
+}
+
+.text-awards {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.35;
+
+}
+
+.awards-title {
+   margin-bottom: 6px;
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.more-about {
+   background: #6B77E5;
+   padding: 21px 27px 22px 27px;
+   color: #FFFFFF;
+   display: inline-block;
+}
+
+/*                                  HOME WORK PART 2                  */
+
+
+.project {
+   width: 1220px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.text-content {
+   width: 852px;
+   margin: 0 auto;
+   color: #7D7D7D;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+   margin-bottom: 47px;
+
+}
+
+.sub-title-project {
+   text-align: center;
+   background: url("../img/box.png") 352px 5px / 12px 12px no-repeat;
+   color: #37393F;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   padding-left: 18px;
+   line-height: 1.22;
+   text-transform: capitalize;
+   margin-bottom: 14px;
+}
+
+.title-project {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   text-transform: capitalize;
+   text-align: center;
+   margin-bottom: 14px;
+}
+
+.project-img-content {
+   font-size: 0;
+   margin-bottom: 58px;
+   width: 1220px;
+   margin: 0 auto;
+}
+
+.img-content {
+   width: 384px;
+   display: inline-block;
+   margin-bottom: 58px;
+   margin-right: 34px;
+}
+
+.img-content-last {
+   margin-right: 0;
+}
+
+.img-cards {
+   margin-bottom: 24px;
+   height: 501px;
+}
+
+.img-1 {
+   background: url("../img/project1.png") center / cover no-repeat;
+}
+
+.img-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 15px;
+}
+
+.img-data {
+   background: url("../img/calendar.png") 0 0 no-repeat;
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.46;
+   padding-left: 25px;
+}
+
+.img-2 {
+   background: url("../img/project2.png") center / cover no-repeat;
+}
+
+.img-3 {
+   background: url("../img/project3.png") center / cover no-repeat;
+}
+
+.img-4 {
+   background: url("../img/project4.png") center / cover no-repeat;
+}
+
+.img-5 {
+   background: url("../img/project5.png") center / cover no-repeat;
+}
+
+.img-6 {
+   background: url("../img/project6.png") center / cover no-repeat;
+}
+
+
+
+
+/*                                        HOME WORK PART 3                  */
+
+
+.clothing {
+   max-width: 1240px;
+   max-height: 636px;
+   margin: 0 auto;
+   padding: 0px 50px;
+   margin-bottom: 100px;
+}
+
+.decor {
+   border-radius: 10px;
+   background: #8A33FD;
+   width: 6px;
+   height: 28px;
+   display: inline-block;
+   margin-right: 15px;
+}
+
+.clothing-title {
+   display: inline-block;
+   font-family: "CoreSansC", sans-serif;
+   color: #3C4242;
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 33.5px;
+   letter-spacing: 0.56px;
+   margin-bottom: 30px;
+
+}
+
+.clothing-sub-title {
+   color: #807D7E;
+   font-family: "CoreSansC", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+   margin-bottom: 25px;
+}
+
+.clothing-content-1 {
+   font-family: "Causten", sans-serif;
+   color: #807D7E;
+   font-size: 20px;
+   font-style: normal;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+   margin-bottom: 20px;
+
+
+}
+
+.clothing-span {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+}
+
+.clothing-content-2 {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+   margin-bottom: 25px;
+
+}
+
+.clothing-content-3 {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+   margin-bottom: 20px;
+}
+
+.clothing-content-4 {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+   margin-bottom: 20px;
+}
+
+.more-info {
+   color: #807D7E;
+   font-family: "CoreSansC", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 33.5px;
+   letter-spacing: 0.4px;
+}
+
+/*                        HOME WORK PART 4                        */
+
+.fashion {
+   width: 1240px;
+   margin: 0 auto;
+   font-size: 0;
+   margin-bottom: 150px;
+
+}
+
+.left-block {
+   display: inline-block;
+   width: 50%;
+   min-height: 640px;
+   background: url("../img/backgraund1.png") center / cover no-repeat;
+   padding: 183px 74px 175px;
+   vertical-align: middle;
+   border-radius: 10px 0px 0px 10px;
+}
+
+.fashion-title {
+   color: #FFF;
+   font-family: "CoreSansC", sans-serif;
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 50px;
+   letter-spacing: 0.208px;
+   margin-bottom: 30px;
+   width: 466px;
+}
+
+.text-fashion {
+   color: #FFF;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 50px;
+   width: 451px;
+   text-align: left;
+}
+
+.shop-now {
+   color: #3C4242;
+   text-align: center;
+   font-family: "Causten", sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   background: #FFF;
+   border-radius: 8px;
+   padding: 12px 44px;
+
+}
+
+.right-block {
+   display: inline-block;
+   width: 50%;
+   min-height: 640px;
+   background: url("../img/backgraund2.png") center / cover no-repeat;
+   vertical-align: middle;
+   border-radius: 0px 10px 10px 0px;
+}
+
+
+.up {
+   color: #FFF;
+   background-color: #37393F;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+   text-shadow: 1px 1px 1px rgb(233, 34, 34);
+}
